@@ -7,7 +7,7 @@ public class Tests {
 	public void testStatement() {
 		Movie m1 = new Movie("High School Musical", 1);
 		Movie m2 = new Movie("Camp Rock", 2);
-		Movie m3 = new Movie("Descendants", 3);
+		Movie m3 = new Movie("Descendants", 1);
 
 		Customer c1 = new Customer("Taylor Swift");
 
