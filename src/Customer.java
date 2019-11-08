@@ -1,3 +1,6 @@
+import java.util.Enumeration;
+import java.util.Vector;
+
 class Customer {
    private String _name;
    private Vector _rentals = new Vector();
@@ -56,4 +59,5 @@ class Customer {
      result += "You earned " + String.valueOf(frequentRenterPoints) +
              " frequent renter points";
      return result;
+  }
 }
